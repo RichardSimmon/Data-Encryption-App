@@ -29,7 +29,7 @@ Crypto/
 │ ├── Dialog.cpp
 │ └── Dialog.h
 │
-├── Event/ # Xử lý sự kiện GUI (Encrypt, Decrypt, chọn file)
+├── Event/ # Process event GUI (Encrypt, Decrypt, choose file)
 │ ├── Event.cpp
 │ └── Event.h
 │
