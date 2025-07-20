@@ -20,6 +20,8 @@ public:
     // Connect UI signals to event slots
     void connectEvents();
 
+    // Validate input file path and prepare output path with given extension
+    QString checkPath(QString path, QString endPath);
 
 private slots:
     void on_BtInp_Clicked();        // Triggered when input file button is clicked
